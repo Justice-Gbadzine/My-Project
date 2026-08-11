@@ -1,0 +1,6 @@
+{
+  "name": "Perculiar Lines Limited",
+  "description": "Freight forwarding and logistics company website featuring real-time quote requests, interactive services, tracking, and media gallery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

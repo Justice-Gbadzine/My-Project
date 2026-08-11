@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="100%" height="100%">
+  <defs>
+    <style>
+      .navy-fill { fill: #071536; }
+      .blue-fill { fill: #0072CE; }
+      .navy-stroke { stroke: #071536; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .blue-stroke { stroke: #0072CE; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .title-text { font-family: 'Montserrat', 'Arial Black', sans-serif; font-weight: 800; font-size: 26px; fill: #071536; letter-spacing: 0.5px; }
+      .sub-text { font-family: 'Montserrat', 'Arial', sans-serif; font-weight: 700; font-size: 20px; fill: #0082CB; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <!-- Group: Logo Graphic Mark -->
+  <g transform="translate(40, 20)">
+    <!-- Ship Wheel (Helm) Outer Handles & Rings -->
+    <g transform="translate(140, 140)">
+      <!-- 8 Ship Wheel Handles -->
+      <path d="M 0,-130 L 0,-95 M 0,95 L 0,130 M -130,0 L -95,0 M 95,0 L 130,0 M -92,-92 L -67,-67 M 67,67 L 92,92 M -92,92 L -67,67 M 67,-67 L 92,-92" stroke="#071536" stroke-width="10" stroke-linecap="round" />
+      <circle cx="0" cy="-125" r="7" class="navy-fill" />
+      <circle cx="0" cy="125" r="7" class="navy-fill" />
+      <circle cx="-125" cy="0" r="7" class="navy-fill" />
+      <circle cx="125" cy="0" r="7" class="navy-fill" />
+      <circle cx="-88" cy="-88" r="7" class="navy-fill" />
+      <circle cx="88" cy="88" r="7" class="navy-fill" />
+      <circle cx="-88" cy="88" r="7" class="navy-fill" />
+      <circle cx="88" cy="-88" r="7" class="navy-fill" />
+
+      <!-- Helm Outer Ring -->
+      <circle cx="0" cy="0" r="100" fill="none" stroke="#071536" stroke-width="7" />
+      <!-- Helm Inner Ring -->
+      <circle cx="0" cy="0" r="82" fill="#ffffff" stroke="#071536" stroke-width="5" />
+
+      <!-- Inner Symbols: Airplane & Ocean Ship -->
+      <!-- Airplane -->
+      <path d="M -30,-30 L 10,-45 L 35,-20 L 15,-15 L 25,5 L 12,2 L 2,-10 L -20,-12 Z" class="blue-fill" />
+      <path d="M -22,-32 L 22,-52 L 32,-42 L -10,-18 Z" class="blue-fill" />
+      
+      <!-- Ship Hull & Superstructure -->
+      <path d="M -60,25 C -40,45 40,45 60,25 L 50,42 C 30,55 -30,55 -50,42 Z" class="blue-fill" />
+      <path d="M -45,22 L 45,22 L 40,10 L -35,10 Z" class="blue-fill" />
+      <path d="M -30,10 L 30,10 L 25,-2 L -20,-2 Z" class="blue-fill" />
+      <rect x="-10" y="-12" width="20" height="10" class="blue-fill" />
+      <rect x="2" y="-18" width="6" height="6" class="blue-fill" />
+      <!-- Water Waves under ship -->
+      <path d="M -65,48 Q -40,56 -15,48 T 35,48 T 65,48" fill="none" stroke="#0072CE" stroke-width="4" stroke-linecap="round" />
+    </g>
+
+    <!-- Stylized 'P' & 'LL' Graphic -->
+    <!-- Large Dark Navy 'P' Swoosh -->
+    <path d="M 210,30 C 330,30 460,25 460,110 C 460,190 320,185 230,195 C 210,197 220,250 210,290 C 205,300 198,280 202,230 C 205,180 200,100 210,30 Z" class="navy-fill" />
+    <path d="M 220,55 C 320,55 420,50 420,110 C 420,165 310,160 220,165 Z" fill="#ffffff" />
+    <path d="M 225,75 C 300,75 380,72 380,110 C 380,145 300,142 225,145 Z" class="navy-fill" />
+
+    <!-- Light Blue 'LL' Text -->
+    <text x="280" y="280" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="110" fill="#0072CE" letter-spacing="5">LL</text>
+  </g>
+
+  <!-- Bottom Brand Text -->
+  <text x="300" y="380" text-anchor="middle" class="title-text">PERCULIAR LINES LIMITED:</text>
+  <text x="300" y="420" text-anchor="middle" class="sub-text">LOGISTICS | HAULAGE | REMOVALS</text>
+</svg>
